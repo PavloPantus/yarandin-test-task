@@ -1,6 +1,5 @@
 import React, { useEffect, useState, useRef, useMemo } from 'react';
 import './App.scss';
-import includesLodash from 'lodash.includes';
 import { baseUrl } from './api';
 
 function App() {
@@ -84,6 +83,7 @@ function App() {
           return true;
         }
       }
+
       return false;
     }
   ), [searchQuery, dataFromServer]);
@@ -112,7 +112,7 @@ function App() {
 
         <div className="data-list-section__search-container">
           <input
-              placeholder={'Type for search'}
+            placeholder="Type for search"
             value={searchQuery}
             onChange={handleSearchInput}
             className="data-list-section__search-input"
