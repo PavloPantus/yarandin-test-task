@@ -77,7 +77,7 @@ function App() {
       const valuesToCheck = Object.values(data)
         .filter(item => (typeof item === 'string'));
 
-      for (let i = 0; i < valuesToCheck.length; i++) {
+      for (let i = 0; i < valuesToCheck.length; i += 1) {
         if (valuesToCheck[i].toLowerCase()
           .includes(searchQuery.toLowerCase())) {
           return true;
