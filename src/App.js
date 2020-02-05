@@ -22,10 +22,13 @@ function App() {
     })();
   }, []);
 
-  const handleEntities = (links, newSubHeading) => {
+  const handleEntities = (links, newSubHeading, currentEntity) => {
     setIsloading(true);
 
-    setSubHeading(newSubHeading.toUpperCase());
+    const entityTitle = currentEntity.title || currentEntity.name;
+
+    setSubHeading(`${newSubHeading.toUpperCase()}
+     of ${entityTitle}`);
 
     const requests = links.map(link => fetch(link));
 
@@ -40,7 +43,9 @@ function App() {
 
           if (data.length === 0) {
             setSubHeading(
-              `we cant find ${newSubHeading.toUpperCase()}`
+              `we cant find
+               ${newSubHeading.toUpperCase()}
+               of ${entityTitle}`
             );
 
             return;
@@ -147,7 +152,7 @@ function App() {
                           <button
                             type="button"
                             onClick={() => {
-                              handleEntities(data[1], data[0]);
+                              handleEntities(data[1], data[0], dataItem);
                             }}
 
                             className="data__entity"
