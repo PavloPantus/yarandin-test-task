@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/yarandin-test-task/static/css/main.a7626835.chunk.css",
-    "main.js": "/yarandin-test-task/static/js/main.41fe524a.chunk.js",
-    "main.js.map": "/yarandin-test-task/static/js/main.41fe524a.chunk.js.map",
-    "runtime~main.js": "/yarandin-test-task/static/js/runtime~main.8541c93e.js",
-    "runtime~main.js.map": "/yarandin-test-task/static/js/runtime~main.8541c93e.js.map",
-    "static/js/2.802ce85f.chunk.js": "/yarandin-test-task/static/js/2.802ce85f.chunk.js",
-    "static/js/2.802ce85f.chunk.js.map": "/yarandin-test-task/static/js/2.802ce85f.chunk.js.map",
-    "index.html": "/yarandin-test-task/index.html",
-    "precache-manifest.cac3b4b20f1f81d237fc5c609d293ef9.js": "/yarandin-test-task/precache-manifest.cac3b4b20f1f81d237fc5c609d293ef9.js",
-    "service-worker.js": "/yarandin-test-task/service-worker.js",
-    "static/css/main.a7626835.chunk.css.map": "/yarandin-test-task/static/css/main.a7626835.chunk.css.map"
+    "main.css": "./static/css/main.a7626835.chunk.css",
+    "main.js": "./static/js/main.41fe524a.chunk.js",
+    "main.js.map": "./static/js/main.41fe524a.chunk.js.map",
+    "runtime~main.js": "./static/js/runtime~main.d653cc00.js",
+    "runtime~main.js.map": "./static/js/runtime~main.d653cc00.js.map",
+    "static/js/2.802ce85f.chunk.js": "./static/js/2.802ce85f.chunk.js",
+    "static/js/2.802ce85f.chunk.js.map": "./static/js/2.802ce85f.chunk.js.map",
+    "index.html": "./index.html",
+    "precache-manifest.bbc81de41b134cf6389593be7951bf75.js": "./precache-manifest.bbc81de41b134cf6389593be7951bf75.js",
+    "service-worker.js": "./service-worker.js",
+    "static/css/main.a7626835.chunk.css.map": "./static/css/main.a7626835.chunk.css.map"
   }
 }
