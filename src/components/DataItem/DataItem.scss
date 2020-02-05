@@ -1,0 +1,41 @@
+.item {
+  background-color: rgba(255, 255, 255, 0.91);
+  padding: 15px;
+  width: 100%;
+  margin-top: 30px;
+  border: 1px solid darkred;
+
+
+  &__container {
+    padding: 5px;
+    align-items: center;
+    min-height: 50px;
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+    border: 1px solid rgba(48, 48, 48, 0.78);
+  }
+
+  &__key {
+    margin-right: 50px;
+  }
+
+  &__value {;
+    display: flex;
+  }
+
+  &__entity {
+    background-color: rgba(100, 149, 237, 0.65);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    width: 120px;
+    padding: 10px 15px;
+    &:hover{
+      cursor: pointer;
+      background-color: azure;
+    }
+  }
+}

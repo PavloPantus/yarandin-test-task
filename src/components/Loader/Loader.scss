@@ -1,0 +1,30 @@
+.loader {
+  position: fixed;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  font-size: 20px;
+
+  &__window {
+    width: 200px;
+    animation: infinite loader 2s ease-in;
+    margin-left: -100%;
+  }
+
+  &__logo {
+    width: 200px;
+    height: 100px;
+  }
+
+}
+
+@keyframes loader {
+  100% {
+    margin-left: 100%;
+  }
+}
